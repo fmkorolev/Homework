@@ -1,26 +1,30 @@
 ﻿//Задание 1
-/*
+
 int a;
 int b;
-int large;
-int small;
+int min;
+int max;
+
 Console.Write("Input first number : ");
 a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input second number: ");
 b = Convert.ToInt32(Console.ReadLine());
-{
-if (a <b)
-large = b;
+
+if (a>b)
+max = a;
 else
-large = a;
-small = b;
-}
+max = b;
 
-Console.WriteLine("Largest number is {0}", large);
-Console.WriteLine("Smallest number is {0}", small);
+if(a<b)
+min= a;
+else 
+min = b;
 
-Console.ReadLine();
-*/
+Console.WriteLine("Maximum number ={0}", max);
+Console.WriteLine("Minimum number ={0}", min);
+
+
+
 
 
 
@@ -69,7 +73,7 @@ else
 }
 
 */
-
+/*
 // Задача 4
 Console.Write("input number : ");
 int num = Convert.ToInt32(Console.ReadLine()); 
@@ -80,3 +84,4 @@ for (int i = 1; i <= num; i++)
     Console.WriteLine(i);
 }
 }
+*/
